@@ -41,6 +41,7 @@ $('#btnLogin').click(function (e) {
         const userData=userCredentials.filter((d)=>d.username===user && d.pass===password)
         console.log(userData);
         if(userData.length===0){
+            addremoveLoad(false, $('#divForm'));
             alert('Enter valid credentials')
         }else{
             localStorage.setItem("userCredential", JSON.stringify(userData[0]));
