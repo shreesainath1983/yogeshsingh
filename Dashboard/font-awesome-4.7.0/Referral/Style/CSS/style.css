@@ -1,0 +1,69 @@
+﻿.rm-12
+{
+   margin-right: 12px;
+}
+
+.rm-5
+{
+   margin-right: 5px;
+}
+
+.tdcenter
+{
+    text-align: center;
+}
+
+.chkPointer{
+    cursor: pointer;
+}
+
+.bg-blue{
+    background-color: #0b4daa!important
+}
+
+.colorBlue{
+    color: #0b4daa
+}
+
+.divCard {
+    font-size: 11pt; border-radius: 5px; box-shadow: 6px 8px 10px #bdbdbd;
+}
+
+.divQuestion {
+    box-shadow: 5px 5px 10px grey;
+}
+
+.newButton {
+    box-shadow: 5px 5px 6px grey;
+}
+
+.alertShadow {
+    box-shadow: 5px 5px 20px;
+    font-style: italic;
+}
+
+.logoShadow {
+    box-shadow: 5px 5px 20px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+#scrolltoTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #f9a61a!important;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/*#scrolltoTopBtn:hover {
+  background-color: #555;
+}*/

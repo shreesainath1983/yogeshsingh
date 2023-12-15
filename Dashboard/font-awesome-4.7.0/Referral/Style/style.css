@@ -1,0 +1,34 @@
+﻿/*Reset Css*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;box-sizing:border-box}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+/*Reset Css Ends*/
+html,body{font-family: 'Roboto', sans-serif;min-height:100%}
+.MainContainer,.container,.InnerDiv{width:100%;position:relative;}
+.InnerDiv{background-color:#0b4daa;padding:2%;height:100%}
+.ContentDiv{background-color:#f8f9fa;width:100%;border-radius: 10px;-ms-border-radius:10px;-o-border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;box-shadow: 4px 3px 3px #b3b0b0;-o-box-shadow: 4px 3px 3px #b3b0b0;-ms-box-shadow: 4px 3px 3px #b3b0b0;-webkit-box-shadow: 4px 3px 3px #b3b0b0;-moz-box-shadow: 4px 3px 3px #b3b0b0;}
+.NameDiv,.MobDiv{width:42%;float:left;padding:2%;margin:1%;border-radius:5px}
+.SMSDiv,.WhatsappDiv{padding:1%;margin:0%;border-radius:5px}
+.NameDiv input[type=text],.MobDiv input[type=tel]{width:100%;outline:none;padding:5% 2%;box-sizing:border-box;font-size:13px}
+#SendSMS{background-color:#28a745}
+#btnCancel{background-color:#d9534f}
+.btnSMS,.btnCancel{color:#fff;background:transparent;border:none;cursor:pointer;width:48%;float:left;outline:none;padding:3%;font-size: 0.9rem;margin: 5px 1%;border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;-webkit-border-radius:5px;}
+.clearfix{clear:both}
+.CustHeader{color:#fff;font-size:1rem;margin:10px 0}
+.BtnContainer{padding:3%}
+.LogoImg img{margin: 15px 0;}
+.IconDiv{width: 10%;float: left;padding-top: 2%;padding-bottom: 2%;cursor: pointer;margin:1% 1% 1% 1%;}
+button.WhatsAppIcon{background: transparent;outline:none;border: none;padding: 0;margin: 0;width: 100%;}
+button.WhatsAppIcon img{cursor:pointer}
+
+.DisclaimerDiv{padding: 1% 3%;line-height: 1.3;font-size:14px}
+.DisclaimerDiv i.fa-angle-down,.DisclaimerDiv i.fa-angle-up{font-size:20px;font-weight:bold;padding: 0 5px 0 0;}
+.DisclaimerTitle{padding-bottom:10px;cursor:pointer}
+.DisclaimerContent{display:none;font-size:13px !important}
+
+@media screen and (max-width: 767px){html,body,.MainContainer,.container,.InnerDiv{min-height:100%;height:100%;overflow:auto}}
+@media screen and (min-width: 680px){.IconDiv{padding-top: 3%;padding-bottom: 3%;}}
