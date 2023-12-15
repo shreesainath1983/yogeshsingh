@@ -15,6 +15,8 @@ $('#btnContinue').click(function (e) {
 
 $('#btnReLogin').click(function (e) {
     localStorage.removeItem("userCredential");
+    localStorage.removeItem("userFormData");
+    localStorage.removeItem("receiptData");
     location.reload()
 })
 

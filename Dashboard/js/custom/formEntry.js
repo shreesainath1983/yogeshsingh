@@ -53,6 +53,8 @@ else {
 
     $('#btnLogout').click(function (e) {
         localStorage.removeItem("userCredential");
+        localStorage.removeItem("userFormData");
+        localStorage.removeItem("receiptData");
         window.location='login.html';
     })
     
